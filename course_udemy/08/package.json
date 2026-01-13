@@ -1,0 +1,19 @@
+{
+  "name": "hola",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "json-server backend/db.json --port 3001"
+  },
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.3",
+    "vite": "^7.2.4"
+  },
+  "dependencies": {
+    "axios": "^1.13.2"
+  }
+}
